@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/182/549/98/blue-purple-blur-abstract-wallpaper-thumb.jpg);
+    height: 100vh;
+    width: 100% auto;
+    overflow: hidden;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+ 
+ }
+ h1{
+    padding-top: 25px;
+     text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+     color: rgb(16, 16, 14);
+     
+ }
+ h2{
+     text-align: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgb(16, 16, 14);
+ }
+ 
+ ul{
+     margin-top: 15px;
+     display: flex;
+     justify-content: flex-start;
+     gap: 20px;
+     flex-wrap: wrap;
+     
+ }
+ 
+ li{
+    list-style: none;
+     height: 40px;
+     width: 110px;
+     background-color: rgb(215, 214, 227);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 30px;    
+     
+ }
+ li a{
+     text-decoration: none;
+     color: black;
+ }
+ li:hover{
+     background-color: lightsteelblue;
+     color: white;
+     cursor: pointer;
+ }
