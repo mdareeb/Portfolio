@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    box-shadow: 0px 1px 1px lightgray;
+  padding-top: 15px;
+ 
+}
+.Etsy-logo{
+    height: 45px;
+    width: 90px;
+    fill: #f1641e;
+}
+.parent{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.input{
+    width: 65%;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.input > input{
+    margin-left: 10px;
+    background-color: none;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+.search-icon{
+    margin: 5px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: #f1641e;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 5px
+}
+.input2{
+    display: none;
+}
+.child{
+    cursor: pointer;
+}
+.last{
+    cursor: pointer;
+}
+.cate{
+    cursor: pointer;
+}
+.last-logo{
+    display: flex;
+    gap: 15px;
+}
+.cate-logo{
+    display: none;
+}
+.info-section{
+    text-align: center;
+    background-color: bisque;
+    padding: 30px;
+    margin-top: 30px;
+}
+.grid-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 12px auto;
+    gap: 20px;
+    
+}
+button{
+    height: 40px;
+    width: 150px;
+    border:1px solid black;
+    border-radius: 40px;
+    outline: none;
+    font-size: 14px;
+}
+.grid-parent > div{
+    margin: 15px;
+}
+button:hover{
+   cursor: pointer;
+   transform: scale(1.05);
+}
+@media (max-width:1000px) {
+    .grid-parent{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:850px) {
+    .child{
+        display: none;
+    }
+    .cate{
+        display: none;
+    }
+    .input{
+        display: none;
+    }
+    .input2{
+        display: flex;
+      width: 100%;
+    }
+    .parent{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 15px;
+        
+    }
+    .cate-logo{
+        display: flex;
+    }
+    .last-search{
+        display: flex;
+        align-items: center;
+      gap: 10px;
+      padding: 0px 15px;
+      font-size: 25px;
+    }
+    
+}

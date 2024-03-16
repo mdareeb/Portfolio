@@ -1,0 +1,168 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    height: 350px;
+    background-color:#0057b8;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+   
+}
+.top > div{
+    margin-top:10px ;
+}
+span > button{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+}
+span > button:hover{
+    background-color: lightgray;
+}
+span{
+    cursor: pointer;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 15px;
+    color: rgb(255, 252, 252);
+    
+   
+}
+.section2 >div{
+   border: 1px solid rgb(239, 235, 235);
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.section2 >div:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.sec3{
+color: white;
+margin-top: 50px;
+}
+
+.sec4{
+    margin-top: 40px;
+  
+}
+.sec4 >div{
+    border: 3px solid #ffb700;
+    height: 50px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.912);
+}
+.sec4 >div >button{
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #006ce4;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+.content-child{
+   margin-top: 70px;
+    
+}
+.content-child1{
+    text-align: center;
+}
+.sec4 >div:hover{
+    cursor: pointer;
+    background-color: #ffb700;
+}
+.sec4 >div >button:hover{
+    background-color: #ffb700;
+}
+.content2{
+    margin-top: 50px;
+    
+    height: 350px;
+    overflow: hidden;
+}
+.content2-child{
+    margin-top: 25px;
+    
+   
+   
+}
+
+@media (max-width:700px){
+    .pkr{
+        display: none;
+    }
+    .property{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    .ques{
+        display: none;
+    }
+    .section2{
+        gap: 10px;
+        size: 30px;
+        padding: 5px;
+    }
+   .section2 > .air{
+    display: none;
+   }
+   .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+   }
+}
+@media (max-width:900px){
+    .sec4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sec4 >div{
+        height: 50px;
+        width: 95%;
+        
+    }
+    nav{
+        height: 500px;
+    }
+}
+@media (max-width:400px){
+    nav{
+        height: 530px;
+    }
+    .register{
+        display: none;
+    }
+    .content-child1 >img{
+        height: 150px;
+    }
+}

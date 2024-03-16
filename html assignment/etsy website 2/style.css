@@ -1,0 +1,264 @@
+nav{
+    background-color: 
+    rgb(243, 243, 11);
+    width: 40px auto;
+    height: 40px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 60px;
+   position: fixed;
+   top: 2px;
+   width: 98.2%;
+}
+
+body{
+    margin: 0px;
+    padding: 10px;
+
+
+}
+.food{
+    cursor: pointer;
+    margin: 0px 12px; 
+    
+}
+.bell{
+    cursor: pointer;
+    margin: 15px;
+    padding: 5px;
+    color: black;
+}
+.logo{
+    font-size: 25px;
+    padding: 15px;
+  cursor: pointer;
+  color: black;
+}
+.text{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler,  sans-serif;
+    color: solid black;
+}
+.nav-item{
+    color: black;
+    margin: 30px;
+   
+}
+.bt{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin-top: 120px;
+  font-family: 'Gruppo', sans-serif;;
+}
+div > img{
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    
+}
+.box{
+    height: 140px;
+    width: 120px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 5px;
+   margin: 10px;
+   cursor: pointer;
+
+}
+.box-text{
+    margin-top: 13px;
+    font-size: small;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+}
+.box > img:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+    box-shadow: 4px 2px 2px 2px rgb(215, 202, 202);
+}
+.long-box{
+    height: 250px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.long-box > img{
+    height: 210px;
+    width: 160px;
+    border-radius: 12px;
+}
+.long-box > span{
+    margin-top: 10px;
+}
+.long-box-parent{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+   padding: 10px;
+   flex-wrap: wrap;
+    
+}
+.long-box:hover{
+    box-shadow: 5px 5px 5px 5px rgb(215, 202, 202);
+    transform: scale(1.01);
+}
+.long-box2{
+    height: 250px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.long-box2 > img{
+    height: 210px;
+    width: 160px;
+    border-radius: 10px;
+}
+.long-box2 > span{
+    margin-top: 10px;
+}
+.long-box-parent2{
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.long-box2:hover{
+    box-shadow: 5px 5px 5px 5px rgb(215, 202, 202);
+    transform: scale(1.01);
+}
+.food-box{
+    height: 320px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.food-font{
+    font-size: 14px;
+    text-align: center;
+   padding: 5px;
+}
+.food-box > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.food-price{
+    font-size: small;
+    color: rgb(55, 221, 22);
+    text-decoration: line-through;
+    margin-top: 5px;
+}
+.food-categories-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+.food-box > span{
+    padding: 5px;
+}
+.food-box:hover{
+    box-shadow: 5px 5px 5px 5px rgb(215, 202, 202);
+    transform: scale(1.01);
+}
+
+.last-box{
+    background-color: rgb(219, 182, 182);
+    min-height: 850px;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.last-box-child{
+    text-align: center;
+}
+.last-box-child > h4{
+    text-decoration: underline;
+}
+.last-box-child1{
+    height: 380px;
+    width: 380px;
+    margin-top: 15px;
+    margin: 10px;
+    
+    
+  
+    
+}
+.last-box-parent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.last-box-child1 > div > h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.last-box-child1 > div > p{
+    font-size: 20px;
+    padding: 25px;
+}
+.ques{
+    text-align: center;
+
+}
+.ques > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button > button{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(235, 158, 222);
+    color: black;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.button > button:hover{
+   transform: scale(1.04);
+   transition: 1.4s;
+
+}
