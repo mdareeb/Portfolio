@@ -16,6 +16,8 @@ body{
     background-size: cover;
     height: 100%;
     overflow: scroll;
+    
+    
 }
 body {
     font-family: "roboto", sans-serif;
@@ -147,3 +149,4 @@ body{
     }
     
 }
+
